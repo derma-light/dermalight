@@ -1,2 +1,2 @@
-# dermalight.github.io
+# dermalight
 Internetseite in html
