@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+.preistabelle-damen{
+	
+	padding:0px;
+	float:right;
+	 display:inline-block;
+	 width:40.400%;
+
+}
+@media screen and (max-width: 400px) {
+.preistabelle-herren, .preistabelle-damen {
+    width: 100% !important;
+	float: none;
+}
+}
+.preistabelle-herren{
+	padding:0px;
+	float:right;
+	display:inline-block;
+	margin-right:10px; 
+	width:40.400%;
+	
+}
+
+.tabs{
+	padding:0px;
+	float:left;
+	width:70px;
+	
+	
+	
+}
+.headas{
+	padding:0px;
+	float:right;
+	width:50%;
+	margin-bottom: 1em; 
+	
+	
+}
+
+.headasbreak{
+	padding:0px;
+	clear: both;
+	width:50%;
+	
+}
+.preistabelle {
+	margin:0px;
+	padding:0px;
+	width:50%;
+
+}.preistabelle table{
+	height:500%;
+	margin:0px;padding:0px;
+	width:50%;
+	
+}
+
+}.preistabelle tr:hover td{
+	
+}
+.preistabelle tr:nth-child(odd){ background-color:#ffffff; }
+.preistabelle tr:nth-child(even)    { background-color:#f1f8fe; }.preistabelle td{
+	vertical-align:middle;
+	border:0px solid #3e9da8;
+	border-width:0px 0px 1px 0px;
+	text-align:left;
+	padding:9px;
+	font-size:14px;
+	font-family:Verdana;
+	font-weight:bold;
+	color:#3e9da8;
+	
+}.preistabelle tr:last-child td{
+	border-width:0px 0px 0px 0px;
+}.preistabelle tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.preistabelle tr:last-child td:last-child{
+	
+}
+.preistabelle tr:first-child td{
+	background:-o-linear-gradient(bottom, #3e9da8 5%, #1a656d 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3e9da8), color-stop(1, #1a656d) );
+	background:-moz-linear-gradient( center top, #3e9da8 5%, #1a656d 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#3e9da8", endColorstr="#1a656d");	background: -o-linear-gradient(top,#3e9da8,1a656d);
+	background-color:#3e9da8;
+	border:0px solid #3e9da8;
+	text-align:left;
+	border-width:0px 0px 1px 0px;
+	font-size:14px;
+	font-family:Verdana;
+	font-weight:bold;
+	color:#ffffff;
+}
+.preistabelle tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #3e9da8 5%, #1a656d 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3e9da8), color-stop(1, #1a656d) );
+	background:-moz-linear-gradient( center top, #3e9da8 5%, #1a656d 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#3e9da8", endColorstr="#1a656d");	background: -o-linear-gradient(top,#3e9da8,1a656d);
+
+	background-color:#3e9da8;
+}
+.preistabelle tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.preistabelle tr:first-child td:last-child{
+	border-width:0px 0px 1px 0px;
+}
+	
+.preistabelle td {
+padding: 4px !important;
+font-size: 13px !important;
+}
+.preistabelle tr:first-child td {
+padding:10px !important;
+
+}
+.preistabelle tr:last-child td {
+background: -o-linear-gradient(bottom, #3e9da8 5%, #1a656d 100%);
+background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3e9da8), color-stop(1, #1a656d) );
+background: -moz-linear-gradient( center top, #3e9da8 5%, #1a656d 100% );
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3e9da8", endColorstr="#1a656d");
+background: -o-linear-gradient(top,#3e9da8,1a656d);
+background-color: #3e9da8;
+border: 1px solid #ffffff;
+text-align: left;
+font-size: 14px;
+font-family: Verdana;
+font-weight: bold;
+color: #ffffff;
+padding:10px !important;
+}
+
+.preistabelle tr:nth-last-child(-n+3) td {
+		background:-o-linear-gradient(bottom, #3e9da8 5%, #1a656d 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3e9da8), color-stop(1, #1a656d) );
+	background:-moz-linear-gradient( center top, #3e9da8 5%, #1a656d 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#3e9da8", endColorstr="#1a656d");	background: -o-linear-gradient(top,#3e9da8,1a656d);
+
+background-color:#3e9da8;
+border:1px solid #ffffff;
+text-align: left;
+font-size: 14px;
+font-family: Verdana;
+font-weight: bold;
+color: #ffffff;
+padding:10px !important;
+
+}
